@@ -231,13 +231,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/otus/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/motorola/otus/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/motorola/otus/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
-    vendor/motorola/otus/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
-    vendor/motorola/otus/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
-    vendor/motorola/otus/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
-    vendor/motorola/otus/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
-    vendor/motorola/otus/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
-    vendor/motorola/otus/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
-    vendor/motorola/otus/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
+    vendor/motorola/otus/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
+    vendor/motorola/otus/proprietary/etc/acdbdata/General_cal.acdb:system/etc/acdbdata/General_cal.acdb \
+    vendor/motorola/otus/proprietary/etc/acdbdata/Global_cal.acdb:system/etc/acdbdata/Global_cal.acdb \
+    vendor/motorola/otus/proprietary/etc/acdbdata/Handset_cal.acdb:system/etc/acdbdata/Handset_cal.acdb \
+    vendor/motorola/otus/proprietary/etc/acdbdata/Hdmi_cal.acdb:system/etc/acdbdata/Hdmi_cal.acdb \
+    vendor/motorola/otus/proprietary/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
+    vendor/motorola/otus/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
     vendor/motorola/otus/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
     vendor/motorola/otus/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/motorola/otus/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
