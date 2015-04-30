@@ -126,7 +126,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/otus/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
     vendor/motorola/otus/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/motorola/otus/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
+    vendor/motorola/otus/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/motorola/otus/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/motorola/otus/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/motorola/otus/proprietary/lib/libtpa.so:system/lib/libtpa.so \
     vendor/motorola/otus/proprietary/lib/libtpa_core.so:system/lib/libtpa_core.so \
     vendor/motorola/otus/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
