@@ -99,6 +99,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/otus/proprietary/lib/hw/audio.r_submix.default.so:system/lib/hw/audio.r_submix.default.so \
     vendor/motorola/otus/proprietary/lib/hw/audio.usb.default.so:system/lib/hw/audio.usb.default.so \
     vendor/motorola/otus/proprietary/lib/hw/camera.msm8610.so:system/lib/hw/camera.msm8610.so \
+    vendor/motorola/otus/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
+    vendor/motorola/otus/proprietary/lib/hw/keystore.qcom.so:system/lib/hw/keystore.qcom.so \
     vendor/motorola/otus/proprietary/lib/hw/sensors.msm8610.so:system/lib/hw/sensors.msm8610.so \
     vendor/motorola/otus/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
     vendor/motorola/otus/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
@@ -129,9 +131,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/otus/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
     vendor/motorola/otus/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
     vendor/motorola/otus/proprietary/lib/libpkip.so:system/lib/libpkip.so \
+    vendor/motorola/otus/proprietary/lib/libqdMetaData.so:system/lib/libqdMetaData.so \
+    vendor/motorola/otus/proprietary/lib/libqdutils.so:system/lib/libqdutils.so \
     vendor/motorola/otus/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
     vendor/motorola/otus/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/motorola/otus/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
+    vendor/motorola/otus/proprietary/lib/libqservice.so:system/lib/libqservice.so \
     vendor/motorola/otus/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/motorola/otus/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/motorola/otus/proprietary/lib/librilutils.so:system/lib/librilutils.so \
@@ -262,6 +267,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/otus/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/motorola/otus/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/motorola/otus/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
+    vendor/motorola/otus/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
     vendor/motorola/otus/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/motorola/otus/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/motorola/otus/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
