@@ -258,4 +258,15 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/otus/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/motorola/otus/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
     vendor/motorola/otus/proprietary/bin/ap_gain.bin:system/bin/ap_gain.bin \
-    vendor/motorola/otus/proprietary/bin/ap_gain_mmul.bin:system/bin/ap_gain_mmul.bin
+    vendor/motorola/otus/proprietary/bin/ap_gain_mmul.bin:system/bin/ap_gain_mmul.bin \
+    vendor/motorola/otus/proprietary/etc/firmware/sensorhubfw.bin:system/etc/firmware/sensorhubfw.bin \
+    vendor/motorola/otus/proprietary/etc/firmware/sensorhubver.txt:system/etc/firmware/sensorhubver.txt \
+    vendor/motorola/otus/proprietary/etc/firmware/synaptics-boe-s2316-15020301-175833-otus.tdat:system/etc/firmware/synaptics-boe-s2316-15020301-175833-otus.tdat \
+    vendor/motorola/otus/proprietary/etc/firmware/synaptics-inx-s2316-15020302-175833-otus.tdat:system/etc/firmware/synaptics-inx-s2316-15020302-175833-otus.tdat \
+    vendor/motorola/otus/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
+    vendor/motorola/otus/proprietary/etc/permissions/com.motorola.android.tcmd.xml:system/etc/permissions/com.motorola.android.tcmd.xml \
+    vendor/motorola/otus/proprietary/etc/permissions/com.motorola.motodisplay.fd.screenoff.xml:system/etc/permissions/com.motorola.motodisplay.fd.screenoff.xml \
+    vendor/motorola/otus/proprietary/etc/permissions/com.motorola.motosignature.xml:system/etc/permissions/com.motorola.motosignature.xml \
+    vendor/motorola/otus/proprietary/etc/permissions/com.motorola.sensorhub.stml0.xml:system/etc/permissions/com.motorola.sensorhub.stml0.xml \
+    vendor/motorola/otus/proprietary/etc/permissions/com.qcom.fmradio.xml:system/etc/permissions/com.qcom.fmradio.xml \
+    vendor/motorola/otus/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml
