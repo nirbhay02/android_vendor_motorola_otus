@@ -92,29 +92,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/otus/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/motorola/otus/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/motorola/otus/proprietary/framework/imslibrary.jar:system/framework/imslibrary.jar \
-    vendor/motorola/otus/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
-    vendor/motorola/otus/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
-    vendor/motorola/otus/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
-    vendor/motorola/otus/proprietary/lib/hw/audio.primary.msm8610.so:system/lib/hw/audio.primary.msm8610.so \
-    vendor/motorola/otus/proprietary/lib/hw/audio.r_submix.default.so:system/lib/hw/audio.r_submix.default.so \
-    vendor/motorola/otus/proprietary/lib/hw/audio.usb.default.so:system/lib/hw/audio.usb.default.so \
-    vendor/motorola/otus/proprietary/lib/hw/bluetooth.default.so:system/lib/hw/bluetooth.default.so \
     vendor/motorola/otus/proprietary/lib/hw/camera.msm8610.so:system/lib/hw/camera.msm8610.so \
-    vendor/motorola/otus/proprietary/lib/hw/copybit.msm8610.so:system/lib/hw/copybit.msm8610.so \
-    vendor/motorola/otus/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/motorola/otus/proprietary/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
-    vendor/motorola/otus/proprietary/lib/hw/gralloc.msm8610.so:system/lib/hw/gralloc.msm8610.so \
-    vendor/motorola/otus/proprietary/lib/hw/hwcomposer.msm8610.so:system/lib/hw/hwcomposer.msm8610.so \
-    vendor/motorola/otus/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
-    vendor/motorola/otus/proprietary/lib/hw/keystore.qcom.so:system/lib/hw/keystore.qcom.so \
-    vendor/motorola/otus/proprietary/lib/hw/lights.msm8610.so:system/lib/hw/lights.msm8610.so \
-    vendor/motorola/otus/proprietary/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
-    vendor/motorola/otus/proprietary/lib/hw/memtrack.msm8610.so:system/lib/hw/memtrack.msm8610.so \
-    vendor/motorola/otus/proprietary/lib/hw/power.default.so:system/lib/hw/power.default.so \
-    vendor/motorola/otus/proprietary/lib/hw/power.msm8610.so:system/lib/hw/power.msm8610.so \
-    vendor/motorola/otus/proprietary/lib/hw/sensorhub.msm8610.so:system/lib/hw/sensorhub.msm8610.so \
     vendor/motorola/otus/proprietary/lib/hw/sensors.msm8610.so:system/lib/hw/sensors.msm8610.so \
-    vendor/motorola/otus/proprietary/lib/hw/vibrator.default.so:system/lib/hw/vibrator.default.so \
+    vendor/motorola/otus/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
     vendor/motorola/otus/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
     vendor/motorola/otus/proprietary/lib/libchromatix_ar0543_common.so:system/lib/libchromatix_ar0543_common.so \
     vendor/motorola/otus/proprietary/lib/libchromatix_ar0543_default_video.so:system/lib/libchromatix_ar0543_default_video.so \
@@ -124,24 +104,16 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/otus/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
     vendor/motorola/otus/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/motorola/otus/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/motorola/otus/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/motorola/otus/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/motorola/otus/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/motorola/otus/proprietary/lib/libmdmcutback.so:system/lib/libmdmcutback.so \
     vendor/motorola/otus/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
+    vendor/motorola/otus/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
+    vendor/motorola/otus/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/motorola/otus/proprietary/lib/libmmcamera_ar0543.so:system/lib/libmmcamera_ar0543.so \
     vendor/motorola/otus/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/motorola/otus/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/motorola/otus/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
-    vendor/motorola/otus/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    vendor/motorola/otus/proprietary/lib/libmodalityservice_jni.so:system/lib/libmodalityservice_jni.so \
-    vendor/motorola/otus/proprietary/lib/libmotaudioutils.so:system/lib/libmotaudioutils.so \
-    vendor/motorola/otus/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
-    vendor/motorola/otus/proprietary/lib/libmotocalibration.so:system/lib/libmotocalibration.so \
-    vendor/motorola/otus/proprietary/lib/libmotocare.so:system/lib/libmotocare.so \
-    vendor/motorola/otus/proprietary/lib/libmotodisplayqd.so:system/lib/libmotodisplayqd.so \
-    vendor/motorola/otus/proprietary/lib/libmoto_netutil.so:system/lib/libmoto_netutil.so \
     vendor/motorola/otus/proprietary/lib/libmot_sensorlistener.so:system/lib/libmot_sensorlistener.so \
+    vendor/motorola/otus/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
     vendor/motorola/otus/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
     vendor/motorola/otus/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
     vendor/motorola/otus/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
@@ -151,21 +123,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/otus/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
     vendor/motorola/otus/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
     vendor/motorola/otus/proprietary/lib/libpkip.so:system/lib/libpkip.so \
-    vendor/motorola/otus/proprietary/lib/libqdMetaData.so:system/lib/libqdMetaData.so \
-    vendor/motorola/otus/proprietary/lib/libqdutils.so:system/lib/libqdutils.so \
     vendor/motorola/otus/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
     vendor/motorola/otus/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/motorola/otus/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
-    vendor/motorola/otus/proprietary/lib/libqservice.so:system/lib/libqservice.so \
-    vendor/motorola/otus/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/motorola/otus/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/motorola/otus/proprietary/lib/librilutils.so:system/lib/librilutils.so \
-    vendor/motorola/otus/proprietary/lib/libsensorhubservice_jni.so:system/lib/libsensorhubservice_jni.so \
-    vendor/motorola/otus/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
-    vendor/motorola/otus/proprietary/lib/libSTML0Updater.so:system/lib/libSTML0Updater.so \
-    vendor/motorola/otus/proprietary/lib/libtpa_core.so:system/lib/libtpa_core.so \
     vendor/motorola/otus/proprietary/lib/libtpa.so:system/lib/libtpa.so \
-    vendor/motorola/otus/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
+    vendor/motorola/otus/proprietary/lib/libtpa_core.so:system/lib/libtpa_core.so \
     vendor/motorola/otus/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/motorola/otus/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/motorola/otus/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
