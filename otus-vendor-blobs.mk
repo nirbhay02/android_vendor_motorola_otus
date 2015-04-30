@@ -92,6 +92,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/otus/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/motorola/otus/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/motorola/otus/proprietary/framework/imslibrary.jar:system/framework/imslibrary.jar \
+    vendor/motorola/otus/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
+    vendor/motorola/otus/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
+    vendor/motorola/otus/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
+    vendor/motorola/otus/proprietary/lib/hw/audio.primary.msm8610.so:system/lib/hw/audio.primary.msm8610.so \
+    vendor/motorola/otus/proprietary/lib/hw/audio.r_submix.default.so:system/lib/hw/audio.r_submix.default.so \
+    vendor/motorola/otus/proprietary/lib/hw/audio.usb.default.so:system/lib/hw/audio.usb.default.so \
     vendor/motorola/otus/proprietary/lib/hw/camera.msm8610.so:system/lib/hw/camera.msm8610.so \
     vendor/motorola/otus/proprietary/lib/hw/sensors.msm8610.so:system/lib/hw/sensors.msm8610.so \
     vendor/motorola/otus/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
@@ -154,6 +160,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/otus/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/motorola/otus/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/motorola/otus/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
+    vendor/motorola/otus/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     vendor/motorola/otus/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/motorola/otus/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/motorola/otus/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
